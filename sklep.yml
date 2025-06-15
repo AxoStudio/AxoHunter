@@ -1,0 +1,21 @@
+shop:
+  items:
+    speed_potion:
+      name: "&bRzucana &fMikstura &eSzybkości II"
+      material: SPLASH_POTION
+      slot: 23
+      cost: 25
+      potion_effect: SPEED
+      potion_level: 2
+      potion_duration: 60 # 1 minuta
+    # Moneta Axo z lore i efektem Speed I, gdy trzymana w ręce
+    axo_coin:
+      name: "&eMoneta &cAxo"
+      material: GOLD_NUGGET
+      slot: 26
+      cost: 100
+      enchants:
+        - UNBREAKING:10
+      lore:
+        - "&7Kiedyś będzie potrzebna!"
+        - "&eNie Daje Speeda I, gdy trzymasz ją w ręce."

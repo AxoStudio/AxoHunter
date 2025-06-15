@@ -1,0 +1,7 @@
+# stats.yml - domyślna konfiguracja statystyk
+stats:
+# Przykładowy gracz (UUID)
+#  123e4567-e89b-12d3-a456-426614174000:
+#    wins: 0
+#    deaths: 0
+#    kills: 0

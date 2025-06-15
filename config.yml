@@ -1,0 +1,147 @@
+settings:
+  minPlayers: 1
+  countdownBeforeStart: 10
+  timeGame: 600
+  sheriffShots: 4
+  sheriffCooldownSeconds: 30
+freezeSettings:
+  enabled: true
+actionBar:
+  frozen: '&cJesteś zamrożony!'
+  unfrozen: '&aZostałeś odmrożony!'
+gui:
+  main_gui_title: '&6AxoHunters GUI'
+  death_gui_title: '&cWybierz opcję'
+  medic_gui_title: '&aWybierz gracza do uleczenia'
+items:
+  gui_join_queue:
+    material: LIME_DYE
+    displayName: '&eDołącz do kolejki'
+    lore:
+      - '&7Kliknij, aby dołączyć do gry!'
+    slot: 20
+  gui_game_status:
+    material: CLOCK
+    displayName: '&eStan gry'
+    slot: 22
+  gui_leave_queue:
+    material: RED_DYE
+    displayName: '&cOpuść kolejkę'
+    lore:
+      - '&7Kliknij, aby opuścić grę'
+    slot: 24
+  gui_spectate:
+    material: EYE_OF_ENDER
+    displayName: '&7Obserwuj'
+    slot: 20
+  gui_exit_lobby:
+    material: BARRIER
+    displayName: '&cWyjdź do lobby'
+    slot: 24
+  hunter_weapon:
+    material: BLAZE_ROD
+    displayName: '&fBroń &cHuntera'
+    lore:
+      - '&7Specjalna broń'
+      - '&eKliknij, aby użyć'
+    enchantments:
+      - DURABILITY: 10
+  sheriff_weapon:
+    material: CROSSBOW
+    displayName: '&9Broń Szeryfa'
+    lore:
+      - '&7Strzela specjalnymi strzałami'
+    enchantments:
+      - UNBREAKING: 3
+  medic_weapon:
+    material: TRIDENT
+    displayName: '&aRóżdżka Medyka'
+    lore:
+      - '&7Używaj do leczenia'
+    enchantments:
+      - UNBREAKING: 10
+countdownMessages:
+  '10': '&eGra rozpocznie się za 10 sekund!'
+  '9': '&eGra rozpocznie się za 9 sekund!'
+  '8': '&eGra rozpocznie się za 8 sekund!'
+  '7': '&eGra rozpocznie się za 7 sekund!'
+  '6': '&eGra rozpocznie się za 6 sekund!'
+  '5': '&eGra rozpocznie się za 5 sekund!'
+  '4': '&eGra rozpocznie się za 4 sekundy!'
+  '3': '&eGra rozpocznie się za 3 sekundy!'
+  '2': '&eGra rozpocznie się za 2 sekundy!'
+  '1': '&eGra rozpocznie się za 1 sekundę!'
+  start: '&aGra właśnie się rozpoczęła!'
+roleTitles:
+  hunter: '&cHunter'
+  sheriff: '&9Szeryf'
+  medic: '&aMedyk'
+  runner: '&bUciekinier'
+maps:
+  default:
+    pos1:
+      x: 98
+      y: 79
+      z: -46
+    pos2:
+      x: -40
+      y: 130
+      z: -143
+    spawnpos:
+      spawn1:
+        x: 51
+        y: 97
+        z: -83
+      spawn2:
+        x: 51
+        y: 97
+        z: -88
+      spawn3:
+        x: 51
+        y: 97
+        z: -93
+      spawn4:
+        x: 57
+        y: 97
+        z: -95
+      spawn5:
+        x: 56
+        y: 97
+        z: -88
+      spawn6:
+        x: 57
+        y: 97
+        z: -82
+      spawn7:
+        x: 45
+        y: 97
+        z: -82
+      spawn8:
+        x: 46
+        y: 97
+        z: -88
+      spawn9:
+        x: 45
+        y: 97
+        z: -95
+lobby:
+  pos1:
+    x: 22
+    y: 100
+    z: 53
+  pos2:
+    x: 67
+    y: 138
+    z: -4
+  spawnlobbypos:
+    x: 44
+    y: 110
+    z: 34
+  startingposlobby:
+    enabled: true
+endplate:
+  x: -26
+  y: 99
+  z: -103
+endplatecommand:
+  command: axohunter koniec
