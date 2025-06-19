@@ -51,4 +51,8 @@ Po uruchomieniu plugin generuje plik `config.yml`. Przykładowa konfiguracja zin
 - AxoPL777 (minecraft)
 - AxoStudio (serwer discord)
 
+## Pomocnicy
+- B0cianPL
+- Reksio_o
+
 
